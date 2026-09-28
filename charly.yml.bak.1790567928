@@ -1,5 +1,7 @@
+version: 2026.232.0520
 k3s-kernel:
     candy:
+        version: 2026.225.1707
         description: |
             Ensures the full distro kernel is installed and reboots the venue so it boots it.
             The Arch cloud image ships a minimal kernel without overlayfs or iptables/netfilter —
